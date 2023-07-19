@@ -259,14 +259,73 @@ small {
 
 
 /* online play game */
-.play-instant{
+.play-instant {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-    margin:  50px auto;
+    margin: 50px auto;
 }
 
+/* carrer section here */
+.carrer {
+    /* height: 80vh; */
+
+    background-color: #F948B2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+
+}
+
+.resize {
+    width: 100%;
+
+}
+
+.devide {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    
+}
+
+.right {
+    text-align: right;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.carrer-btn {
+    border-radius: 48px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 10px 20px;
+    /* gap: 10px; */
+    border: 0px;
+    margin-top: 20px;
+}
+.carrer-tittle{
+    color: #FFF;
+font-size: 48px;
+margin-bottom: 20px;
+font-weight: 700;
+}
+.carrer-description{
+    color: #FFF;
+font-size: 18px;
+
+}
+.left {
+    text-align: left;
+    margin: 20px 0px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
 
 /* play button section started */
 .play-button {

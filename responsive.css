@@ -151,7 +151,19 @@
    text-align: center;
 
 }
+.carrer {
+    text-align: center;
+   flex-direction: column;
+    padding: 10px 0px;
 
+}
+.carrer-info{
+    width: 70%;
+}
+
+.carrer-image{
+    width: 70%;
+}
 .btn{
     display: flex;
     align-items: center;
