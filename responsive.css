@@ -96,12 +96,65 @@
 
     }
 
+    /* online game responsive style */
+    .online-description {
+        color: #534C64;
+        font-size: 0.6rem;
+    
+    }
+    .online-game-text {
+        color: #0B0223;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    
+    }
+    .gradiant {
+
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+    
+    }
+ /* card section started here */
+ .cards{
+   
+    flex-direction: column;
+    
+}
+.cards>.card{
+
+    width: 90%;
+   text-align: left;
+   margin: auto;
+   
+}
+
+.play-button{
+    width: 90%;
+    margin: 100px auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+   text-align: center;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    /* gap: 500px 20px; */
+    margin: 10px 10px;
+
+}
+
+
+
+
+
     /* footer responsive style here */
-    /* footer {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        } */
+    
     .support {
         flex-wrap: wrap;
         gap: 20px;

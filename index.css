@@ -198,6 +198,90 @@ small {
     width: 100%;
 }
 
+/* online game related style */
+.online-game {
+    display: grid;
+    justify-content: center;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.gradiant {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+
+}
+
+.online-game-text {
+    color: #0B0223;
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.online-description {
+    color: #534C64;
+    font-size: 1.1rem;
+
+}
+
+/* card section here */
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cards>.card{
+    /* height: 50%; */
+    width: 24%;
+   text-align: left;
+   margin-bottom: 20px;
+   
+}
+.card-image{
+    width: 100%;
+    margin: 20px 0px;
+}
+.card-image:hover{
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    
+}
+
+/* play button section started */
+.play-button{
+    width: 90%;
+    margin: 200px auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-content: center;
+   text-align: center;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    /* gap: 500px 20px; */
+    margin: 20px 20px;
+
+}
+.btn:hover{
+    border: 2px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px;
+    color: #F948B2;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    
+}
+
 
 /* footer related style are here */
 footer {
@@ -231,7 +315,7 @@ footer {
     justify-content: space-around;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .footer-text {
@@ -241,10 +325,10 @@ footer {
 }
 
 .social-icon {
-   display: grid;
-   grid-template-columns: repeat(6, 1fr);
-   justify-content: space-around;
-   margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+    margin-top: 20px;
 
 
 }
@@ -258,10 +342,10 @@ footer {
 .privacy {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* row-gap: 20px; */
     justify-content: center;
-    
+
 }
 
 .terms {
