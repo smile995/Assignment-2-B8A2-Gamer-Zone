@@ -1,0 +1,73 @@
+/* This responsive style for Mobile screen */
+@media screen and (max-width:576px) {
+    .navigation {
+       flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-manu>ul {
+        flex-direction: column;
+
+    }
+    .nav-text {
+        color: #3C354F;
+        font-size: 1.3rem;
+        line-height: normal;
+        padding: 20px 0px;
+    }
+    .nav-button{
+        border: 0px;
+        border-radius: 10px;
+        padding: 0px 10px;
+    }
+
+
+        /* banner responsive style start from here */
+        .banner-container {
+            flex-direction: column-reverse;
+            margin: 200px 0px 100px 0px;}
+            
+            .group-banner {
+                height: 35vh;
+                margin-bottom: 50px;
+            }
+            
+            .pink-btn {
+                padding: 10px 10px;
+                margin: 10px 0px;
+            
+            }
+            
+            .blue-btn {
+                padding: 10px 10px;
+                margin: 10px 0px;
+            
+            .play{
+                color: #0B0223;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-top: 50px;
+            }
+            .goat{
+            font-size: 5.5rem;
+            padding-bottom: 0px;
+            }
+            .banner-point{
+            color: #534C64;
+            font-size: 1.3rem;
+            padding-bottom: 0px;
+            
+            }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+/* This responsive style for Tablet screen */
