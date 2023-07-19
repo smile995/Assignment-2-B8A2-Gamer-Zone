@@ -131,6 +131,17 @@
    
 }
 
+.play-instant{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.play-instant-image{
+    width: 90%;
+    margin:20px  auto;
+    
+}
 .play-button{
     width: 90%;
     margin: 100px auto;

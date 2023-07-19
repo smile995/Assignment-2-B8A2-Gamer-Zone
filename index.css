@@ -257,53 +257,16 @@ small {
 
 }
 
-.online-game {
-    /* width: 50%; */
-}
 
 /* online play game */
-/* .play-game-online {
+.play-instant{
     display: flex;
-    width: 90%;
-    margin: auto;
     align-items: center;
-    justify-content: space-between;
-}
-.online-image{
-    width: 60%;
-    
-}
-.big-image{
-    width: 100%;
+    justify-content: space-evenly;
+    width: 90%;
+    margin:  50px auto;
 }
 
-.mini-image {
-    width: 100%;
-    transform: translateY(-300px);
-    transform: ;
-
-}
-
-.online-game-mini {
-    transform: translate(50px, 50px);
-}
-
-.online-play-info {
-    width: 35%;
-}
-
-.playing-info {
-    font-size: 2.8rem;
-    color: #0B0223;
-    
-}
-.playing-description{
-    color: #534C64;
-font-size: 1.1rem;
-margin-top: 20px;
-
-
-} */
 
 /* play button section started */
 .play-button {
