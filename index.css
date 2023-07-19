@@ -278,7 +278,15 @@ small {
     padding: 50px 100px;
 
 }
-
+.play-instant-online{
+   display: flex;
+   flex-direction: row-reverse;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+   justify-content: space-between;
+   
+}
 .resize {
     width: 100%;
 

@@ -157,6 +157,16 @@
     padding: 10px 0px;
 
 }
+
+.play-instant-online{
+    
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
 .carrer-info{
     width: 70%;
 }
